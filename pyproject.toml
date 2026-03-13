@@ -8,6 +8,7 @@ dependencies = [
     "chumpy",
     "faiss-cpu>=1.13.2",
     "huggingface-hub>=1.5.0",
+    "lightglue",
     "mediapipe==0.10.9",
     "moviepy>=2.2.1",
     "numpy>=2.4.2",
@@ -18,11 +19,13 @@ dependencies = [
     "torch>=2.10.0",
     "trackers>=2.2.0",
     "transformers>=5.2.0",
+    "trimesh>=4.11.3",
     "ultralytics>=8.4.19",
 ]
 
 [tool.uv.sources]
 chumpy = { git = "https://github.com/hassony2/chumpy.git" }
+lightglue = { git = "https://github.com/cvg/LightGlue.git" }
 
 [tool.uv.workspace]
 members = [
